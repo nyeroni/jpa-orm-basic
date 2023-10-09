@@ -12,6 +12,9 @@ public class Member {
     @Column(name = "USERNAME")
     private String username;
 
+    @OneToOne
+    @JoinColumn(name = "LOCKER_ID")
+    private Locker locker;
 
     public Long getId() {
         return id;

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89205200-62a7-4b0b-ae66-dede003d8952" name="변경" comment="Update:  양방향 연관관계 예시">
+    <list default="true" id="89205200-62a7-4b0b-ae66-dede003d8952" name="변경" comment="Update:  일대다 예시">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Locker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +111,7 @@
       <workItem from="1696664430118" duration="1000" />
       <workItem from="1696690624581" duration="274000" />
       <workItem from="1696690907800" duration="5484000" />
+      <workItem from="1696850962054" duration="1182000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: first">
       <option name="closed" value="true" />
@@ -176,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696751825479</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update:  일대다 예시">
+      <option name="closed" value="true" />
+      <created>1696851111308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696851111308</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update:  일대다 예시">
+      <option name="closed" value="true" />
+      <created>1696852341659</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696852341659</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +229,8 @@
     <MESSAGE value="Update: 연관관계 예시" />
     <MESSAGE value="Update: 연관관계 예시 실행" />
     <MESSAGE value="Update:  양방향 연관관계 예시" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update:  양방향 연관관계 예시" />
+    <MESSAGE value="Update:  일대다 예시" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update:  일대다 예시" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,6 +244,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java</url>
           <line>8</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hellojpa/Team.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
