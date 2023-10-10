@@ -3,6 +3,7 @@ package hellojpa;
 import javax.persistence.*;
 
 @Entity
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Item {
 
     @Id @GeneratedValue
