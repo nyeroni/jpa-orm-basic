@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89205200-62a7-4b0b-ae66-dede003d8952" name="변경" comment="Update:  일대다 예시">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Locker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+    <list default="true" id="89205200-62a7-4b0b-ae66-dede003d8952" name="변경" comment="Update:  다대다 한계 해결">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +114,8 @@
       <workItem from="1696664430118" duration="1000" />
       <workItem from="1696690624581" duration="274000" />
       <workItem from="1696690907800" duration="5484000" />
-      <workItem from="1696850962054" duration="1182000" />
+      <workItem from="1696850962054" duration="4334000" />
+      <workItem from="1696930537402" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: first">
       <option name="closed" value="true" />
@@ -193,7 +197,47 @@
       <option name="project" value="LOCAL" />
       <updated>1696852341659</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update:  일대일 단방향">
+      <option name="closed" value="true" />
+      <created>1696852617671</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696852617671</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update:  일대일 양방향">
+      <option name="closed" value="true" />
+      <created>1696852625135</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696852625135</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update:  다대다 예시">
+      <option name="closed" value="true" />
+      <created>1696855700581</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696855700581</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update:  다대다 ManyToMany 예시">
+      <option name="closed" value="true" />
+      <created>1696924962988</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696924962988</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update:  다대다 한계 해결">
+      <option name="closed" value="true" />
+      <created>1696925379140</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696925379140</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +274,12 @@
     <MESSAGE value="Update: 연관관계 예시 실행" />
     <MESSAGE value="Update:  양방향 연관관계 예시" />
     <MESSAGE value="Update:  일대다 예시" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update:  일대다 예시" />
+    <MESSAGE value="Update:  일대일 단방향" />
+    <MESSAGE value="Update:  일대일 양방향" />
+    <MESSAGE value="Update:  다대다 예시" />
+    <MESSAGE value="Update:  다대다 ManyToMany 예시" />
+    <MESSAGE value="Update:  다대다 한계 해결" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update:  다대다 한계 해결" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
