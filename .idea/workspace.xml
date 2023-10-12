@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89205200-62a7-4b0b-ae66-dede003d8952" name="변경" comment="Update:  조인전략">
+    <list default="true" id="89205200-62a7-4b0b-ae66-dede003d8952" name="변경" comment="Update:  조인전략 예시">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,7 @@
       <workItem from="1696690624581" duration="274000" />
       <workItem from="1696690907800" duration="5484000" />
       <workItem from="1696850962054" duration="4334000" />
-      <workItem from="1696930537402" duration="2538000" />
+      <workItem from="1696930537402" duration="3543000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: first">
       <option name="closed" value="true" />
@@ -259,7 +258,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697113110162</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update:  조인전략 예시">
+      <option name="closed" value="true" />
+      <created>1697113468394</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697113468394</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update:  조인전략 예시">
+      <option name="closed" value="true" />
+      <created>1697113477623</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697113477623</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +318,8 @@
     <MESSAGE value="Update:  다대다 한계 해결" />
     <MESSAGE value="Update:  상속 매핑 관련 엔티티 설정" />
     <MESSAGE value="Update:  조인전략" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update:  조인전략" />
+    <MESSAGE value="Update:  조인전략 예시" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update:  조인전략 예시" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
