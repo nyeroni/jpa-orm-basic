@@ -1,6 +1,6 @@
 package hellojpa;
 
-import javax.persistence.Entity;
+import jakarta.persistence.*;
 
 @Entity
 public class Movie extends Item{

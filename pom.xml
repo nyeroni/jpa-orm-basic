@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.3.20.Final</version>
+            <version>6.3.0.Final</version>
         </dependency>
         <!-- H2 데이터베이스 -->
         <dependency>
