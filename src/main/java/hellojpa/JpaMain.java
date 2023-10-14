@@ -16,15 +16,20 @@ public class JpaMain {
 
 
         try {
+
             Member member = new Member();
-            member.setUsername("name1");
-            member.setCreatedBy("kim");
-            member.setCreatedDate(LocalDateTime.now());
+            member.setUsername("hello");
 
             em.persist(member);
 
             em.flush();
             em.clear();
+
+//            Member findMember = em.find(Member.class, member.getId());
+//            System.out.println("findMember.getUsername() = " + findMember.getUsername());
+//            System.out.println("findMember.getId() = " + findMember.getId());
+
+            Member findMember = em.getReference(Member.class, member.getId());
 
             tx.commit();
 
@@ -38,4 +43,5 @@ public class JpaMain {
 
         emf.close();
     }
+
 }
